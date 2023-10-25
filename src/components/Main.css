@@ -1,0 +1,119 @@
+main {
+    background-color: rgb(255, 228, 196);
+    padding: 0 0.5rem;
+}
+
+main > section {
+    padding: 3rem 0 0;
+}
+
+h1 {
+    background-color: green;
+    color: rgb(255, 32, 0);
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 1rem 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+    color: rgb(0, 50, 150);
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+}
+
+h3 {
+    color: rgb(200, 25, 0);
+    font-size: 1rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+#video {
+    display: block;
+    margin: 2rem auto;
+    /* max-width: 560px; */
+    width: 100%;
+}
+
+#instructions h2:last-of-type {
+    margin-top: 4rem;
+}
+
+#instructions ul {
+    padding-left: 1rem;
+}
+
+#instructions li {
+    margin: 1rem 0;
+}
+
+#materials li {
+    margin: 0.3rem 0;
+}
+
+hr {
+    border-bottom: none;
+    border-top: 2px solid rgb(150, 0, 0);
+    height: 0;
+    margin: 2rem auto 1.5rem;
+    width: 90%;
+}
+
+/* .final-messages {
+    margin: 10px auto;
+    max-width: 700px;
+} */
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+#email {
+    border: 2px solid #777;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 250px;
+}
+
+#submit {
+    background-color: rgb(255, 100, 0);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px #a50;
+    color: #420;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px;
+    width: 150px;
+}
+
+#submit:hover {
+    background-color: rgb(255, 125, 0);
+}
+
+#submit:active {
+    box-shadow: 0 3px #a50;
+    transform: translateY(2px);
+}
+
+#thanks {
+    /* background-color: red; */
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 2rem 0 0;
+    padding: 0 0 2rem;
+    text-align: center;
+}

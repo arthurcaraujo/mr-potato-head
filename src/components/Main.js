@@ -1,3 +1,5 @@
+import "./Main.css";
+
 export default function Main() {
     return (
         <main>
@@ -14,9 +16,9 @@ export default function Main() {
                     height="315"
                     src="https://www.youtube.com/embed/9R9YnJZdEqo"
                     title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
                 >
                 </iframe>
             </section>
@@ -91,6 +93,7 @@ export default function Main() {
                 </article>
                 <hr />
                 <article id="conclusion-instructions">
+                    <h3>CONCLUSION:</h3>
                     <ul>
                         <li>
                             Afterwards, I painted all the pieces and the body.
@@ -113,7 +116,7 @@ export default function Main() {
                     receive updates on new creations of mine.
                 </p>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <label for="email">
+                    <label htmlFor="email">
                         <input
                             id="email"
                             type="email"
