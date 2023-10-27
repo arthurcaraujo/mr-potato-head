@@ -8,13 +8,13 @@ main > section {
 }
 
 h1 {
-    background-color: green;
+    /* background-color: green; */
     color: rgb(255, 32, 0);
     font-family: "Nunito", sans-serif;
     font-size: 2rem;
     margin: 0 auto;
     max-width: 300px;
-    padding: 1rem 0 0;
+    padding: 2rem 0 0;
     text-align: center;
     text-shadow: 1px 1px 1px #000;
 }
