@@ -9,8 +9,20 @@ html {
 }
 
 body {
-    background-color: rgb(215, 170, 144);
+    background-color: rgb(255, 228, 196);
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1.2rem;
+    }
 }

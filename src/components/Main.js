@@ -13,7 +13,6 @@ export default function Main() {
                 </p>
                 <iframe
                     id="video"
-                    height="315"
                     src="https://www.youtube.com/embed/9R9YnJZdEqo"
                     title="YouTube video player"
                     frameBorder="0"
@@ -92,7 +91,7 @@ export default function Main() {
                     </ul>
                 </article>
                 <hr />
-                <article id="conclusion-instructions">
+                <article>
                     <h3>CONCLUSION:</h3>
                     <ul>
                         <li>
@@ -107,15 +106,15 @@ export default function Main() {
             </section>
 
             <section id="contact">
-                <p className="final-messages">
+                <p>
                     Do not hesitate to contact me if you have any
                     questions about this work!
                 </p>
-                <p className="final-messages">
+                <p>
                     Enter your email address down below so you can
                     receive updates on new creations of mine.
                 </p>
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <form>
                     <label htmlFor="email">
                         <input
                             id="email"
