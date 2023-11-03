@@ -1,9 +1,19 @@
 import "./Main.css";
+import { useTheme } from "./ThemeContext";
 
 export default function Main() {
+    const {theme} = useTheme();
+
+    const h1TagDark = {color: "rgb(255, 100, 0)"};
+    const h1TagLight = {color: "rgb(255, 32, 0)"};
+    const h2TagDark = {color: "rgb(0, 128, 255)"};
+    const h2TagLight = {color: "rgb(0, 50, 150)"};
+
     return (
         <main>
-            <h1>Mr. Potato Head made out of paper</h1>
+            <h1 style={(theme === "dark") ? h1TagDark : h1TagLight}>
+                Mr. Potato Head made out of paper
+            </h1>
 
             <section id="intro">
                 <p>
@@ -23,7 +33,9 @@ export default function Main() {
             </section>
 
             <section id="backstory">
-                <h2>Backstory</h2>
+                <h2 style={(theme === "dark") ? h2TagDark : h2TagLight}>
+                    Backstory
+                </h2>
                 <p>
                     When I was a kid, I was enthusiastic about Toy Story movies,
                     and Mister Potato Head used to bring me so much joy.
@@ -40,7 +52,9 @@ export default function Main() {
             </section>
 
             <section id="instructions">
-                <h2>Materials used</h2>
+                <h2 style={(theme === "dark") ? h2TagDark : h2TagLight}>
+                    Materials used
+                </h2>
 
                 <ul id="materials">
                     <li>a balloon</li>
@@ -53,7 +67,9 @@ export default function Main() {
                     <li>varnish</li>
                 </ul>
 
-                <h2>General instructions</h2>
+                <h2 style={(theme === "dark") ? h2TagDark : h2TagLight}>
+                    General instructions
+                </h2>
                 <article>
                     <h3>BODY:</h3>
                     <ul>
