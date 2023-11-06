@@ -60,6 +60,7 @@ nav {
     font-style: italic;
     line-height: 1;
     text-shadow: 2px 2px 1px #000;
+    white-space: nowrap;
 }
 
 #arrow-icon {
