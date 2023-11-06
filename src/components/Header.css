@@ -7,7 +7,7 @@ header {
 nav {
     align-items: center;
     display: grid;
-    grid-template-columns: auto 3rem;
+    grid-template-columns: calc(100% - 6.5rem) 3.5rem 3rem;
     grid-template-rows: 3.5rem;
     justify-content: space-between;
     justify-items: center;
@@ -20,6 +20,7 @@ nav {
     grid-column: 1 / 2;
     grid-template-columns: 2.5rem auto;
     grid-template-rows: 1.4rem 1.1rem;
+    justify-self: start;
     margin-left: 0.5rem;
     text-decoration: none;
 }
@@ -61,22 +62,29 @@ nav {
     text-shadow: 2px 2px 1px #000;
 }
 
+#arrow-icon {
+    cursor: pointer;
+    font-size: 2rem;
+    grid-column: 2 / 3;
+    transition: color 0.5s, transform 0.5s;
+}
+
 #dark-light-icon {
     border-radius: 50%;
     cursor: pointer;
     font-size: 1.5rem;
-    grid-column: 2 / 3;
+    grid-column: 3 / 4;
     transition: color 0.5s, transform 0.5s;
 }
 
 #dark-light-icon:hover {
     background-color: rgb(0, 84, 148);
-    outline: 0.5rem solid rgb(0, 84, 148);
+    outline: 0.4rem solid rgb(0, 84, 148);
 }
 
 @media (min-width: 576px) {
     nav {
-        grid-template-columns: 32.25rem 1.5rem;  /*  540px => 33.75rem  */
+        grid-template-columns: 28.75rem 3.5rem 1.5rem;  /*  540px => 33.75rem  */
         justify-content: center;
         justify-items: start;
     }
@@ -88,7 +96,7 @@ nav {
 
 @media (min-width: 768px) {
     nav {
-        grid-template-columns: 43rem 2rem;  /*  720px => 45rem  */
+        grid-template-columns: 39rem 4rem 2rem;  /*  720px => 45rem  */
         grid-template-rows: 4rem;
     }
 
@@ -111,6 +119,10 @@ nav {
         font-size: 1.32rem;
     }
 
+    #arrow-icon {
+        font-size: 2.5rem;
+    }
+
     #dark-light-icon {
         font-size: 2rem;
     }
@@ -118,6 +130,6 @@ nav {
 
 @media (min-width: 992px) {
     nav {
-        grid-template-columns: 58rem 2rem;  /*  960px => 60rem  */
+        grid-template-columns: 54rem 4rem 2rem;  /*  960px => 60rem  */
     }
 }
