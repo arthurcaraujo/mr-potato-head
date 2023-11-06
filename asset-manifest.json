@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mr-potato-head/static/css/main.073c9b0a.css",
-    "main.js": "/mr-potato-head/static/js/main.6663ec49.js",
+    "main.css": "/mr-potato-head/static/css/main.e6f0d129.css",
+    "main.js": "/mr-potato-head/static/js/main.c3ae72a8.js",
     "static/js/787.4549e9b9.chunk.js": "/mr-potato-head/static/js/787.4549e9b9.chunk.js",
-    "static/media/logo.svg": "/mr-potato-head/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/website-logo.png": "/mr-potato-head/static/media/website-logo.671bf2ee0be77e8a4999.png",
     "index.html": "/mr-potato-head/index.html",
-    "main.073c9b0a.css.map": "/mr-potato-head/static/css/main.073c9b0a.css.map",
-    "main.6663ec49.js.map": "/mr-potato-head/static/js/main.6663ec49.js.map",
+    "main.e6f0d129.css.map": "/mr-potato-head/static/css/main.e6f0d129.css.map",
+    "main.c3ae72a8.js.map": "/mr-potato-head/static/js/main.c3ae72a8.js.map",
     "787.4549e9b9.chunk.js.map": "/mr-potato-head/static/js/787.4549e9b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6663ec49.js"
+    "static/css/main.e6f0d129.css",
+    "static/js/main.c3ae72a8.js"
   ]
 }
